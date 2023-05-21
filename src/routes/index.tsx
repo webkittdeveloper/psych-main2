@@ -24,7 +24,7 @@ export default function Index() {
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    scrollToBottom();
+    //scrollToBottom();
   }, [currentChat, chatHistory, state]);
 
   const scrollToBottom = () => {
